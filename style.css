@@ -1,0 +1,24 @@
+body{
+  text-align:center;
+  color:white;
+    background:linear-gradient(to right,black,rgb(4,139,200));
+}
+div{
+  margin-top:100px;
+    margin-left:35px;
+      margin-right:40px;
+  width:25%;
+  height:600px;
+    border:5 solid white;
+  border-radius:20px;
+  box-shadow:0px 0px 20px white;
+  float:left;
+}
+img{
+  width:80%;
+}
+div:hover{
+    background-color:green;
+    transform:rotate(15deg);
+    transition:1s;
+}
